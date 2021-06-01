@@ -3,8 +3,7 @@
 - According to the quiz, I can start at day 32. However, I wanna try some GUI stuff, so may start earlier
   - Starting at _Day 15_, as it is intermediate level and I want to practice OOP.
 
-
-## Day 15 (i.e. Day 1)
+## Day 1: Lesson 15
 - Made the coffee machine code
 - Learnt that
   - Python assignments are by _reference_, not a copy!
@@ -13,3 +12,13 @@
 - Improvements
   - Also, make more and smaller functions. They simplify everything
   - Work dirtier and faster.
+
+## Day 2: Lesson 16
+- Focuses on OOP (which I already know)
+  - Skimmed through lectures just in case, but nothing too interesting.
+- Task: Create the coffee machine code based on the provided class.
+  - Look at the original project goals.
+  - [Documentation](https://docs.google.com/document/d/e/2PACX-1vTragRHILyj76AvVgpWeOlEaLBXoxPM_43SdEyffIKtOgarj42SoSAsK6LwLAdHQs2qFLGthRZds6ok/pub)
+- Learnt:
+  - Not much, it was just nice OOP practice.
+  - OOP is so much easier and nicer; use it more.
