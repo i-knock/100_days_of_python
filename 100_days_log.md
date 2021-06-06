@@ -25,9 +25,14 @@
 
 ## Day 3: Lesson 17
 - Quiz game
+- [API database example] (https://opentdb.com/api_config.php)
 - Learnt:
   - _SOMETHING IMPORTANT_: If working in sub-directories and importing modules, start with `.` so that intellisense knows where they are.
     - I.e. `import .custom_module` instead of `import custom_module`
-      - Works when it wants to...
-    - Use `\` when you want to break up a statement into multiple lines.
-    - Break. It. Up. It's more useful in the long run.
+    - Works when it wants to...
+  - Use `\` when you want to break up a statement into multiple lines.
+  - Break. It. Up. It's more useful in the long run.
+  - Learnt how to deal with APIs using the `request` module.
+    - Also, with a bit of decoding.
+
+# Day 4: Lesson 18
