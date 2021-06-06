@@ -22,3 +22,12 @@
 - Learnt:
   - Not much, it was just nice OOP practice.
   - OOP is so much easier and nicer; use it more.
+
+## Day 3: Lesson 17
+- Quiz game
+- Learnt:
+  - _SOMETHING IMPORTANT_: If working in sub-directories and importing modules, start with `.` so that intellisense knows where they are.
+    - I.e. `import .custom_module` instead of `import custom_module`
+      - Works when it wants to...
+    - Use `\` when you want to break up a statement into multiple lines.
+    - Break. It. Up. It's more useful in the long run.
