@@ -36,3 +36,4 @@
     - Also, with a bit of decoding.
 
 # Day 4: Lesson 18
+- Topic: Turtle graphics & Tuples
