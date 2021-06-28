@@ -1,4 +1,3 @@
-# TODO: Draw any shape formed by straight lines (i.e. squares, triangles, etc).
 from turtle import Turtle, Screen
 import random
 random.seed()
@@ -9,14 +8,12 @@ tur.color("black")
 
 shapes = [sides for sides in range(3, 10)]
 
-
 for sides in shapes:
+    color = [random.randrange(1, 100, 1)/100 for _ in range(3)]
     for _ in range(sides):
         tur.forward(100)
         tur.rt(360/sides)
-        color = [float(random.randrange(1, 255, 1)) for _ in range(3)]
-        tur.colormode(255)
-        tur.pencolor(color)
+        tur.color(color)
 
 
 scrn = Screen()

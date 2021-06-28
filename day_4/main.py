@@ -8,6 +8,7 @@ for _ in range(50):
 	if tur.isdown():
 		tur.penup()
 	else:
+		
 		tur.pendown()
 	tur.forward(10)
 

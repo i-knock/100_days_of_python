@@ -37,3 +37,29 @@
 
 # Day 4: Lesson 18
 - Topic: Turtle graphics & Tuples
+- Notes:
+  - Turtle graphics color uses a range of 0 to 1 unless specified in `scree.colormode()`.
+  - `colorgram` module: extract colors from image
+  - Nested list comprehension: It is fairly possible to do it, but it's a bit counter-untuitive.
+
+```python
+# Example of flattening a 2D array
+list_array = [(1,2,3), (4,5,6)]
+flattened = list()
+
+for inner_list in list_array:
+  for number in inner_list:
+    flattened.append(number)
+
+# This is equivalent to
+flattened = [number for inner_list in list_array for number in inner_list]
+
+# Which basically is:
+list = [inner_elem for outer_element in outer_list for inner_elem in inner_list]
+
+# You can also play around though:
+colors = [tuple([color.rgb[i] for i in range(3)]) for color in colors]
+```
+  - List comprehension & If/Else
+    - Only `if`: `[f(x) for x in list if condition]`
+    - `if` and `else`: `[f(x) if condition1 else f2(x) for x in list]`
